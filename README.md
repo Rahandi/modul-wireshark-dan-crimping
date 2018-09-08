@@ -9,16 +9,18 @@ Peralatan dan bahan yang perlu dipersiapkan:
 
 __1.1. Tang Crimping__
 
-Tang crimping
 ![ExportObjects](images/taang.jpg)
 
-RJ-45
+__1.2. RJ-45__
+
 ![ExportObjects](images/rj45.jpg)
 
-Kabel UTP
+__1.3. Kabel UTP__
+
 ![ExportObjects](images/utp.jpg)
 
-LAN Tester
+__1.4. Lan tester__
+
 ![ExportObjects](images/lantest.jpg)
 
 __2. *Jenis-Jenis Pengkabelan*__
