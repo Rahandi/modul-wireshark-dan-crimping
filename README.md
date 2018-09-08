@@ -10,7 +10,7 @@ Peralatan dan bahan yang perlu dipersiapkan:
 __1.1. Tang Crimping__
 
 Tang crimping
-![ExportObjects](images/tang.jpg)
+![ExportObjects](images/tang.JPG)
 
 RJ-45
 ![ExportObjects](images/rj45.jpg)
