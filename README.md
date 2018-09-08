@@ -1,4 +1,49 @@
 # MODUL WIRESHARK dan CRIMPING
+
+1. Wire Crimping
+Dalam membangun jaringan komputer, tentunya dibutuhkan segala hal yang dapat menghubungkan perangkat-perangkat komputer yang ada. Hingga saat ini, komponen paling fundamental dalam jaringan komputer adalah kabel. Sekalipun teknologi nirkabel sudah lama ditemukan dan dikembangkan, tapi peran kabel jaringan tetap belum bisa tergantikan. Oleh karena itu di sini kita akan belajar bagaimana membuat kabel jaringan (dalam hal ini kabel UTP) menjadi fungsional.
+
+1.1. Kebutuhan
+Peralatan dan bahan yang perlu dipersiapkan:
+
+Tang Crimping
+Tang Crimping
+
+RJ-45
+RJ-45
+
+Kabel UTP
+Kabel UTP
+
+LAN Tester
+LAN Tester
+
+1.2. Jenis-Jenis Pengkabelan
+1.2.1. Straight
+Kabel straight merupakan kabel yang memiliki cara pemasangan yang sama antara ujung satu dengan ujung yang lainnya. Kabel straight digunakan untuk menghubungkan 2 device yang berbeda, misalnya antara switch dengan router dan komputer dengan switch. Urutan kabel straight jika dilihat dari sisi tembaga RJ-45 adalah seperti dibawah ini:
+
+Straight
+
+1.2.2. Crossover
+Kabel crossover merupakan kabel yang memiliki susunan berbeda antara ujung satu dengan ujung dua. Kabel crossover digunakan untuk menghubungkan 2 device yang sama. Jika dilihat dari sisi tembaga RJ-45, berikut susunan kabel crossover:
+
+Cross
+
+1.3. Cara Crimping
+Mengupas kulit kabel selebar +-2 cm menggunakan tang crimping.
+
+Menyusun rapi delapan kabel yang terdapat didalam kabel UTP sesuai dengan jenis kabel mana yang ingin dibuat (straight atau cross).
+
+Meluruskan kabel yang masih kusut.
+
+Meratakan ujung kabel dengan memotong nya menggunakan tang crimping.
+
+Memasukan kabel kedalam konektor RJ-45, pastikan ujung kabel menyentuh ujung RJ-45, dan jepitlah menggunakan tang crimping.
+
+Lakukan hal serupa pada kedua ujung kabel.
+
+Menguji menggunakan LAN tester, jika semua lampu menyala, berarti kabel tersebut telah di crimping dengan benar dan bisa digunakan.
+
 ## 1. WIRESHARK
 Sebuah jaringan komputer dibangun dengan tujuan mengirimkan/menerima data antara satu end-point dengan end-point lainnya. Data dikirim dalam bentuk paket-paket. Struktur paket terdiri dari:
 
