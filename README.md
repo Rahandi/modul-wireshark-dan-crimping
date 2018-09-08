@@ -119,3 +119,12 @@ Dalam Wireshark terdapat 2 jenis filter __*Capture Filter*__ dan __*Display Filt
 3. File berhasil di-export
 
 ![ExportObjects](images/ws-export-result.PNG)
+
+## Latihan
+1. Ketika mengakses suatu halaman web, berapakah port yang dituju oleh suatu paket?
+2. Apa sajakah perbedaan ketika mengakses halaman utama website if.its.ac.id, monta.if.its.ac.id, dan rbtc.if.its.ac.id? Jelaskan jawaban anda.
+3. Ada berapa jumlah paket yang dikirimkan oleh web server ketika mengunduh file? Mengapa terjadi yang seperti itu?
+4. Dari hasil analisa paket, apa perbedaan ketika menggunakan persistent connection dan non-persistent connection?
+5. Apa perbedaan ketika autentikasi menggunakan method basic dengan digest?
+6. Apa perbedaan ketika mengakses halaman web biasa dengan ketika proses login terjadi?
+Apa saja yang selalu dikirimkan browser ke web server?
