@@ -10,7 +10,7 @@ Peralatan dan bahan yang perlu dipersiapkan:
 __1.1. Tang Crimping__
 
 Tang crimping
-![](https://www.google.co.id/imgres?imgurl=https%3A%2F%2Fwww.jakartanotebook.com%2Fimages%2Fproducts%2F32%2F63%2F2261%2F1%2Ftang-crimper-or-crimping-tools-vz-nt3104-7.JPG&imgrefurl=https%3A%2F%2Fwww.jakartanotebook.com%2Ftang-crimper-combo-networking-vz-nt3104&docid=aqFUxZYmUxj6WM&tbnid=9VQBICZQ9zIkFM%3A&vet=10ahUKEwjp79S9_KvdAhWL6Y8KHbjXASkQMwgoKAAwAA..i&w=1000&h=1000&safe=strict&bih=651&biw=1366&q=tang%20crimping&ved=0ahUKEwjp79S9_KvdAhWL6Y8KHbjXASkQMwgoKAAwAA&iact=mrc&uact=8 | width = 100)
+![ExportObjects](images/taang.jpg)
 
 RJ-45
 ![ExportObjects](images/rj45.jpg)
