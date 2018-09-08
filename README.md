@@ -127,4 +127,4 @@ Dalam Wireshark terdapat 2 jenis filter __*Capture Filter*__ dan __*Display Filt
 4. Dari hasil analisa paket, apa perbedaan ketika menggunakan persistent connection dan non-persistent connection?
 5. Apa perbedaan ketika autentikasi menggunakan method basic dengan digest?
 6. Apa perbedaan ketika mengakses halaman web biasa dengan ketika proses login terjadi?
-Apa saja yang selalu dikirimkan browser ke web server?
+7. Apa saja yang selalu dikirimkan browser ke web server?
