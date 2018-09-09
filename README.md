@@ -29,12 +29,14 @@ __2.1. Straight__
 
 Kabel straight merupakan kabel yang memiliki cara pemasangan yang sama antara ujung satu dengan ujung yang lainnya. Kabel straight digunakan untuk menghubungkan 2 device yang berbeda, misalnya antara switch dengan router dan komputer dengan switch. Urutan kabel straight jika dilihat dari sisi tembaga RJ-45 adalah seperti dibawah ini:
 
+![ExportObjects](images/straight.jpg)
 
 
 __2.2. Crossover__
 
 Kabel crossover merupakan kabel yang memiliki susunan berbeda antara ujung satu dengan ujung dua. Kabel crossover digunakan untuk menghubungkan 2 device yang sama. Jika dilihat dari sisi tembaga RJ-45, berikut susunan kabel crossover:
 
+![ExportObjects](images/cross.jpg)
 
 __3. *Cara Crimping*__
 
