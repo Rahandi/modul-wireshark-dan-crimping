@@ -77,7 +77,7 @@ __3. *Trailer*__
 
 trailer, kadang-kadang disebut __*footer*__, biasanya memuat sepasang bit yang memberi sinyal pada perangkat penerima bahwa paket sudah mencapai ujungnya. Bisa juga trailer memuat semacam _error checking_.
 
-### 1.1 Instalasi
+### 2.1 Instalasi
 
 Instalasi pada OS Windows atau macOS bisa mengunduh installer pada [laman resmi Wireshark](https://www.wireshark.org/download.html). Untuk OS Linux atau FreeBSD tutorialnya bisa dilihat di [sini](http://linuxtechlab.com/install-wireshark-linux-centosubuntu/).
 
@@ -90,7 +90,7 @@ Tampilan awalnya kira-kira seperti ini:
 
 Dalam Wireshark terdapat 2 jenis filter __*Capture Filter*__ dan __*Display Filter*__
 
-#### 1.2.1 Capture Filter
+#### 2.2.1 Capture Filter
 ![Capture](images/ws-capture.PNG)
 
 - Definisi: Memilah paket yang akan ditangkap (_captured_). Paket yang tidak memenuhi kriteria dibiarkan lewat tanpa di tangkap.
@@ -118,7 +118,7 @@ Dalam Wireshark terdapat 2 jenis filter __*Capture Filter*__ dan __*Display Filt
 - Contoh capture filter `tcp dst port 443`:
 ![ContohCapture](images/ws-capture-example.PNG)
 
-#### 1.2.2 Display Filter
+#### 2.2.2 Display Filter
 
 ![Capture](images/ws-display.PNG)
 
@@ -160,7 +160,7 @@ Dalam Wireshark terdapat 2 jenis filter __*Capture Filter*__ dan __*Display Filt
 
 ![ContohDisplay](images/ws-display-example.PNG)
 
-### 1.3 Export data hasil packet capture
+### 2.3 Export data hasil packet capture
 
 1. Setelah memilih packet, pilih pada menu bar File -> Export Objects -> [Protokol yang diinginkan]. Dalam contoh ini dipilih protokol HTTP.
 
@@ -173,6 +173,81 @@ Dalam Wireshark terdapat 2 jenis filter __*Capture Filter*__ dan __*Display Filt
 3. File berhasil di-export
 
 ![ExportObjects](images/ws-export-result.PNG)
+
+## 3. Penggunaan Wireshark pada FTP server
+
+Buka aplikasi wireshark lalu mulai meng-capture
+
+### 3.1. Connect ke server
+
+3.1.1 Linux
+
+masukkan command ini ke CLI
+
+```
+$ ftp [host ip]
+```
+kemudian masukkan username dan password, lalu bisa dikendalikan seperti CLI biasa
+
+3.1.2 Windows
+
+![FileZillaHome](images/filezilla_home.PNG)
+
+dan masukkan host, username, dan password di tempat yang disediakan, lalu klik quickconnect
+
+3.1.3 Wireshark
+
+saat login wireshark akan menampilkan beberapa command di bawah ini
+
+![WiresharkFTPLogin](images/ws-ftp-login.PNG)
+
+penjelasan:
+
+| Perintah | Keterangan |
+| -------- | ---------- |
+| USER | username untuk login ke FTP server |
+| PASS | password untuk login ke FTP server |
+| PWD | untuk menampilkan posisi direktori saat ini |
+
+### 3.2. Upload File
+
+3.2.1 Linux
+
+Command upload untuk linux
+
+```
+$ put [full path file]
+```
+
+3.2.2 Windows
+
+Untuk FileZilla tinggal drag dari Local site lalu drop di Remote site
+
+3.2.3 Wireshark
+
+![WiresharkFTPUpload](images/ws-ftp-upload.PNG)
+
+Untuk upload ke FTP server perintahnya adalah STOR
+
+### 3.3. Download File
+
+3.3.1 Linux
+
+Command download untuk linux
+
+```
+$ get [nama file]
+```
+
+3.3.2 Windows
+
+Untuk FileZilla tinggal drag dari Remote site ke Local site
+
+3.3.3 Wireshark
+
+![WiresharkFTPDownload](images/ws-ftp-download.PNG)
+
+Untuk download dari FTP server perintahnya adalah RETR
 
 ## Latihan
 1. Ketika mengakses suatu halaman web, berapakah port yang dituju oleh suatu paket?
