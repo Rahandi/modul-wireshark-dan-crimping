@@ -25,7 +25,7 @@ __1.4. Lan tester__
 
 __2. *Jenis-Jenis Pengkabelan*__
 
-__2.1. Straight__
+__2.1. Straight (T568B)__
 
 Kabel straight merupakan kabel yang memiliki cara pemasangan yang sama antara ujung satu dengan ujung yang lainnya. Kabel straight digunakan untuk menghubungkan 2 device yang berbeda, misalnya antara switch dengan router dan komputer dengan switch. Urutan kabel straight jika dilihat dari sisi tembaga RJ-45 adalah seperti dibawah ini:
 
