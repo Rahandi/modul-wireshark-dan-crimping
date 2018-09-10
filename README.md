@@ -32,7 +32,7 @@ Kabel straight merupakan kabel yang memiliki cara pemasangan yang sama antara uj
 ![ExportObjects](images/straight.jpg)
 
 
-__2.2. Crossover__
+__2.2. Crossover (T568A)__
 
 Kabel crossover merupakan kabel yang memiliki susunan berbeda antara ujung satu dengan ujung dua. Kabel crossover digunakan untuk menghubungkan 2 device yang sama. Jika dilihat dari sisi tembaga RJ-45, berikut susunan kabel crossover:
 
