@@ -259,3 +259,17 @@ Untuk download dari FTP server perintahnya adalah RETR
 5. Apa perbedaan ketika autentikasi menggunakan method basic dengan digest?
 6. Apa perbedaan ketika mengakses halaman web biasa dengan ketika proses login terjadi?
 7. Apa saja yang selalu dikirimkan browser ke web server?
+
+## Referensi
+
+https://computer.howstuffworks.com/question5251.htm
+
+https://wiki.wireshark.org/
+
+https://www.wireshark.org/docs/wsug_html_chunked/ChCapCaptureFilterSection.html
+
+http://www.tcpdump.org/manpages/pcap-filter.7.html
+
+https://www.wireshark.org/docs/wsug_html_chunked/ChWorkBuildDisplayFilterSection.html
+
+https://wiki.wireshark.org/ProtocolReference
