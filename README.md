@@ -154,7 +154,7 @@ Dalam Wireshark terdapat 2 jenis filter __*Capture Filter*__ dan __*Display Filt
 
     | Filter expression | Keterangan |
     | ----------------- | ---------- |
-    | `tcp.port == 443` | Menampilkan semua paket dengan protokol TCP yang menuju ke atau berasal dari port 25 |
+    | `tcp.port == 443` | Menampilkan semua paket dengan protokol TCP yang menuju ke atau berasal dari port 443 |
     | `ip.src == 192.168.0.1 \|\| ip.dst == 192.168.0.1` | Menampilkan semua paket yang berasal dari alamat 192.168.0.1 atau menuju ke alamat 192.168.0.1 |
     | `http.request.uri contains "login"` | Menampilkan semua paket dengan protokol HTTP yang URI nya mengandung string "login" |
 
